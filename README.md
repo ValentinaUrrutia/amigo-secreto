@@ -1,4 +1,4 @@
-# amigo-secreto
+# Amigo-Secreto
 desafío Amigo Secreto
 
 ## Como ejecutar
