@@ -14,7 +14,7 @@ function agregarAmigo() {
 
     // Nombre sin duplicar
     if (amigos.includes(nombreAmigo)) {
-        alert(`El ${nombreAmigo} ya está en la lista`);
+        alert(`amig@ ${nombreAmigo} ya está en la lista`);
         return;
     }
 
@@ -43,7 +43,7 @@ function actualizarLista() {
 // Seleccionar un amigo aleatorio
 function sortearAmigo() {
     if (amigos.length === 0) {
-        alert("No hay amigos para realizar el sorteo.");
+        alert("No hay amig@s para realizar el sorteo.");
         return;
     }
 
@@ -52,5 +52,5 @@ function sortearAmigo() {
 
     // Mostrar resultado
     const resultado = document.getElementById('resultado');
-    resultado.innerHTML = `Amigo sorteado: <strong>${amigoSorteado}</strong>`;
+    resultado.innerHTML = `Amig@ sorteado@: <strong>${amigoSorteado}</strong>`;
 }
